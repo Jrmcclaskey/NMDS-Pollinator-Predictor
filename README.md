@@ -8,7 +8,9 @@ For this project we will utilize a machine learning algorithm to predict plant p
 5. Summary
 ### Data Cleaning and Preparation
 We began by importing our data from its online repository in github found here:
+
 "https://raw.githubusercontent.com/VinaugerLab/BCHM4354_2022/main/Dataset_R_2022.csv"
+
 From there we transform the data into longform and create a variety of subsets of the data to be used in the analysis including removal of the Color and Pollinator rows as their string type data is 
 ### PCA Analysis
 This analysis is to determine the different values that the various chemicals have on our pollinator.
