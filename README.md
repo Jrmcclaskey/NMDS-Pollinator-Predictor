@@ -38,4 +38,5 @@ The graph below summarizes our findings.
 As you can see from our NMDS plot, our unknown pollinator is particularly attracted to pink flowers and is most likely a moth if not a completely different type of insect all together. The unkown's chemical profile are all very similar to one another and are relatively close together meaning our unknown pollinator is most likely attracted to this specific species of plant.
 
 Thank you for your time and I hope you found this presentation informative
-Special thanks to 
+
+Special thanks to Professor Vinauger for his guidance and teaching
