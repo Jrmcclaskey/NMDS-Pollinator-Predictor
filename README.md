@@ -13,6 +13,10 @@ We began by importing our data from its online repository in github found here:
 From there we transform the data into longform and create a variety of subsets of the data to be used in the analysis including removal of the Color and Pollinator rows as their string type data is not useful to our machine learning model until after data points have been calculated.
 
 We generate two quick graphs to take a look at our data points
+The first is a count for our different Pollinator types
+![alt text](https://github.com/Jrmcclaskey/NMDS-Pollinator-Predictor/blob/68b4391ca6746533127bdbb41eb0edeeed29c602/Images/Pollinators.jpeg)
+The next graph is a count of our different plant colors
+![alt text](https://github.com/Jrmcclaskey/NMDS-Pollinator-Predictor/blob/68b4391ca6746533127bdbb41eb0edeeed29c602/Images/Color_Count.jpeg)
 ### PCA Analysis
 This analysis is to determine the different values that the various chemicals have on our pollinator.
 ### NMDS Analysis
