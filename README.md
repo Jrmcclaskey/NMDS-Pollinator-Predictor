@@ -25,7 +25,7 @@ From this information we determine that there are a variety of different colors 
 ### PCA Analysis
 Principal Component Analysis (PCA) is a statistical technique used for simplifying the complexity in high-dimensional data while retaining trends and patterns. It does this by transforming the original variables into a new set of variables, called principal components, which are linear combinations of the original features. These principal components are ordered by their ability to explain the variance in the data, with the first component explaining the most variance, the second component explaining the second most, and so on.
 
-Using this technique we can analyze chemical from our data will have the greatest weight on our NMDS plot
+Using this technique we can analyze chemical from our data will have the greatest weight on our NMDS plot which is Aldehyde B.
 
 ### NMDS Analysis
 Non-metric Multi Dimensional Scaling or NMDS is a form of machine learning that places variables int a data matrix to make graphical determinations about likeness for multi-vector variables. This is perfect to utilize for our plant fragrances, the closer two points are to one another on the graph, the closer their fragrance profile is to one another. Utilizing this machine learning, we can predict pollinator type for a plant with a given scent profile.
@@ -35,5 +35,7 @@ The graph below summarizes our findings.
 ![alt text](https://github.com/Jrmcclaskey/NMDS-Pollinator-Predictor/blob/8b5c7ffa46d8e4110cbb8496cf69011f46a91617/Images/NMDS_plot.jpeg)
 
 ### Summary
+As you can see from our NMDS plot, our unknown pollinator is particularly attracted to pink flowers and is most likely a moth if not a completely different type of insect all together. The unkown's chemical profile are all very similar to one another and are relatively close together meaning our unknown pollinator is most likely attracted to this specific species of plant.
+
 Thank you for your time and I hope you found this presentation informative
 Special thanks to 
