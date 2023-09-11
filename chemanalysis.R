@@ -95,14 +95,3 @@ Poll.count <-Poll.data[-c(26:39),]%>%#-c is to avoid double counting plants
   count()
   ggplot(Poll.count, aes(x=Values,  y=n)) + geom_bar(stat="identity")
 
-#chemical change over time
-ggplot(SpeciesA.surv, aes(x = Variables, y = Values, color = Chemical)) +
-  geom_point(data = SpeciesA.surv, aes(Variables, Values, color = Chemical), position = "jitter", size = 2) +
-  theme_minimal() +
-  xlab("Weeks") +
-  ylab("Chemical Quantity") +
-  ggtitle("Species A") +
-  theme(axis.title.x = element_text(size=10), axis.title.y = element_text(size=10))
-  #not sure where to place this code
-  #axis.text.x = element_text(size=8, angle=45, face="bold"),
-  #axis.text.y = element_text(size=8, angle=45, face="bold"))
